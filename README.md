@@ -8,6 +8,7 @@ Built with HTML, CSS, Javascript
 
 ## Screenshots and demo
  https://groot737.github.io/random-color-palette/
+ 
  ![image](https://github.com/groot737/random-color-palette/blob/main/image/Screen%20Shot%202023-07-09%20at%2016.23.26.png)
 
 ## Installation
