@@ -4,3 +4,129 @@
     box-sizing: border-box;
     font-family: 'Inter', sans-serif;
 }
+body{
+    background-color: #E8ECF3;
+    display: flex;
+    height: 100vh;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+.alert-box{
+    position: absolute;
+    margin-top: -88vh;
+    background-color: #0C1226;
+    border: none;
+    min-width: 318px;
+    height: 43px;
+    color: white;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    border-radius: 100px;
+}
+
+.main-container{
+    width: 95%;
+    display: grid;
+    grid-template-columns: auto;
+    justify-items: center;
+    row-gap: 50px;
+
+}
+h1{
+    color: #0C1226;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+}
+.items{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 50px;
+    row-gap: 30px;
+    justify-content: center;
+}
+
+.item{
+    width: 199px;
+    height: 297px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.item-box{
+    margin-top: 6px;
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 13px;
+    justify-content: center;
+}
+
+.color-box{
+    width: 181px;
+    height: 248px;
+    border-radius: 5px;
+    background: #D9D9D9;
+}
+
+h3{
+   color: #0C1226;
+   font-size: 16px;
+   font-weight: 700;
+}
+
+#generate{
+    width: 327px;
+    height: 59px;
+    border-radius: 5px;
+    background: #7E6CCA;
+    border: none;
+    color: #FFF;
+    font-size: 25px;
+    font-style: normal;
+}
+
+.action-box{
+    display: grid;
+    grid-template-columns: auto;
+    justify-items: center;
+    row-gap:32px;
+}
+
+.action-box > p{
+    color: #0C1226;
+    font-size: 18px;
+    font-style: normal;
+    text-align: center;
+}
+
+.guide-box{
+    width: 437px;
+    height: 41px;
+    border: none;
+    background-color: white;
+    border-radius: 100px;
+    background: #FFF;
+    color: #0C1226;
+    font-size: 15px;
+    line-height: normal;
+}
+
+@media screen and (max-width: 462px){
+    #generate{
+        width: 100%;
+    }
+    .guide-box{
+        width: 100%;
+    }
+    .alert-box{
+        margin-left: 0px;
+    }
+}
+@media screen and (max-width: 326px){
+    .alert-box{
+        min-width: 100%;
+    }
+}
