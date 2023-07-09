@@ -17,6 +17,7 @@ body{
     margin-top: -88vh;
     background-color: #0C1226;
     border: none;
+    display: none;
     min-width: 318px;
     height: 43px;
     color: white;
